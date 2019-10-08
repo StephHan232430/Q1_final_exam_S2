@@ -1,0 +1,26 @@
+.btn {
+  border: 1px solid #cacaca
+}
+
+.btn-light:not(:disabled):not(.disabled).active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.col-2 {
+  position: fixed;
+}
+
+.movie-cards {
+  margin-left: 235px;
+}
+
+.badge-wrapper {
+  height: 97px;
+}
+
+.badge-light {
+  color: #212529;
+  background-color: #dddedf;
+}
