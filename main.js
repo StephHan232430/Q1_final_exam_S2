@@ -38,6 +38,11 @@
     })
 
     dataPanel.innerHTML = htmlContent
+
+    if (!dataPanel.innerHTML.includes('card-wrapper')) {
+      htmlContent += `<h2 class="ml-5">No such movies in this category!!!</h2>`
+      dataPanel.innerHTML = htmlContent
+    }
   }
 
   // genres編號/字串轉換函式
